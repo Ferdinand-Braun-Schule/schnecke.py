@@ -7,7 +7,7 @@ def FalleVergraben():				#def kommt immer vor dem Programm
 	return(Falle)					#Ausgabe
 	
 def Abfrage_Feld():
-        Feld = -1						#Wert der nicht wahr ist also der nicht zwischen 1-27
+    Feld = -1						#Wert der nicht wahr ist also der nicht zwischen 1-27
 	
     while Feld<1 or Feld>6: #Würfel gibt es 6 Zahlen
 		try:
